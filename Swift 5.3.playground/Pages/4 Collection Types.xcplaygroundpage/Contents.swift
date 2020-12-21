@@ -131,9 +131,47 @@ farmAnimals.isSuperset(of: houseAnimals)
 farmAnimals.isDisjoint(with: cityAnimals)
 // true”
 */
+
 /// ## Dictionaries
 
+var dict = [Int:String]()
+type(of: dict)
+dict[1] = "one"
+dict
 
+var dict1 = [1:"one",2:"two",3:"three",4:"four",5:"five"]
+
+print(dict1)
+
+/// Accessing and Modifying a Dictionary
+
+dict1.count
+dict1.isEmpty
+dict1[6] = "six"
+dict1.count
+dict1[7] = "seveeen"
+dict1.updateValue("seven", forKey: 7)
+print(dict1)
+
+dict1.updateValue("eight", forKey: 8)
+
+dict1[1] = nil
+print(dict1)
+
+dict1.removeValue(forKey: 8)
+print(dict1)
+
+for (num,str) in dict1{
+    print("key:\(num) value:\(str)")
+}
+
+for num in dict1.keys{
+    print(num)
+}
+
+for str in dict1.values{
+    print(str)
+}
 
 
 
