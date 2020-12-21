@@ -2,15 +2,8 @@
 Hands on swift 5.3 doc 
 
 ### The Swift Programming language
-
 https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html
-The Swift Programming language
 
-https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html
-The Swift Programming language
-
-https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html
- 
 ✅ The Basics
 
 ✅ Basic Operators
