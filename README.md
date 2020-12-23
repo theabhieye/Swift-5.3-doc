@@ -12,13 +12,13 @@ https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html
 
 ✅ Collection Types
 
-📝 Control Flow
+✅ Control Flow
 
-📝 Functions
+✅ Functions
 
-📝 Closures
+✅ Closures
 
-📝 Enumerations
+✅ Enumerations
 
 📝 Structures and Classes
 
