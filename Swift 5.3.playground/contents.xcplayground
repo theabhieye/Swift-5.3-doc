@@ -7,5 +7,7 @@
         <page name='4 Collection Types'/>
         <page name='5 Control Flow'/>
         <page name='6 Functions'/>
+        <page name='7 Closer'/>
+        <page name='8 Enumeration'/>
     </pages>
 </playground>

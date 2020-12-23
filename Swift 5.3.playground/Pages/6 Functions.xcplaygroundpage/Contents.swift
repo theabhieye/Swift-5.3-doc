@@ -78,7 +78,7 @@ print(mathAddFunc(39,1))
 //print(mathAddFuncArg(n1:200,n2:399))
 
 /// Passing function as a argunment
-
+/*
 func printHello(){
     print("Hello ")
 
@@ -89,20 +89,23 @@ func funcInFunc(_ func1:(),name:String){
     print(name)
 }
 funcInFunc(printHello(),name:"Abhi")
-
-func increnment(i:Int)->Int{
+ */
+func increnment(_ i:Int)->Int{
     return i+1
 }
-func decrenment(i:Int)->Int{
+func decrenment(_ i:Int)->Int{
     return i-1
 }
-func stepper(_ increase:boolean,_ i:Int)  -> Int{
-    return increase
+func stepper(_ increase:Bool,j:Int)  ->  Int{
+    return increase ? increnment(j):decrenment(j)
 }
-print(stepper(true,10))
+print(stepper(true,j:10))
 
+func stepper1(_ inc:Bool,j:Int) -> Int{
+    return inc ? ({ return j+1 })():({return j-1})();
+}
 
-
+print(stepper1(true,j:23))
 
 
 

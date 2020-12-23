@@ -16,9 +16,9 @@ https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html
 
 ✅ Functions
 
-📝 Closures
+✅  Closures
 
-📝 Enumerations
+✅ Enumerations
 
 📝 Structures and Classes
 
@@ -56,6 +56,6 @@ https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html
 
 📝 Memory Safety
 
-📝  Access Control
+📝 Access Control
 
-📝  Advanced Operators
+📝 Advanced Operators
