@@ -33,3 +33,4 @@
 - [x] How to test Lazy loading 
 
 
+- [ ] @discardableResult  
