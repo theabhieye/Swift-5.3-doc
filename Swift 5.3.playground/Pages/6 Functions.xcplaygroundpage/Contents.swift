@@ -62,12 +62,12 @@ a
 b
 
 */
-func add(_ n1:Int,_ n2:Int)-> Int{
-    return n1+n2
-}
-var mathAddFunc:(Int,Int)->Int = add
-print(mathAddFunc(39,1))
-
+//func add(_ n1:Int,_ n2:Int)-> Int{
+//    return n1+n2
+//}
+//var mathAddFunc:(Int,Int)->Int = add
+//print(mathAddFunc(39,1))
+//
 
 /// How to do it when we label in parameter type
 //func add1(num1 n1:Int,num2 n2:Int) -> Int{
@@ -90,25 +90,62 @@ func funcInFunc(_ func1:(),name:String){
 }
 funcInFunc(printHello(),name:"Abhi")
  */
-func increnment(_ i:Int)->Int{
-    return i+1
+//func increnment(_ i:Int)->Int{
+//    return i+1
+//}
+//func decrenment(_ i:Int)->Int{
+//    return i-1
+//}
+//func stepper(_ increase:Bool,j:Int)  ->  Int{
+//    return increase ? increnment(j):decrenment(j)
+//}
+//print(stepper(true,j:10))
+//
+//func stepper1(_ inc:Bool,j:Int) -> Int{
+//    return inc ? ({ return j+1 })():({return j-1})();
+//}
+//
+//print(stepper1(true,j:23))
+
+
+func chooseStepFunction(backward: Bool) -> (Int) -> Int {
+    func stepForward(input: Int) -> Int { return input + 1 }
+    func stepBackward(input: Int) -> Int { return input - 1 }
+    return backward ? stepBackward : stepForward
 }
-func decrenment(_ i:Int)->Int{
-    return i-1
+var a = chooseStepFunction(backward: true)
+a(1)
+
+
+
+
+//var dir:[String:String]=[:]
+//
+//func sayHi(){
+//    guard (dir["name"] != nil) else{
+//        print("No name")
+//        return
+//    }
+//    print(dir["name"])
+//    print("hi")
+//}
+//
+//sayHi()
+
+
+//func someFunctionThatTakesAClosure(closure: () -> Void) {
+//    print("someFunctionThatTakesAClosure")
+//}
+//
+//someFunctionThatTakesAClosure(closure: {
+//    print("147")
+//})
+
+func test(i:Int){
+    print(i)
 }
-func stepper(_ increase:Bool,j:Int)  ->  Int{
-    return increase ? increnment(j):decrenment(j)
-}
-print(stepper(true,j:10))
-
-func stepper1(_ inc:Bool,j:Int) -> Int{
-    return inc ? ({ return j+1 })():({return j-1})();
-}
-
-print(stepper1(true,j:23))
-
-
-
+var x = test
+print(x(12))
 
 
 //: [Next](@next)
