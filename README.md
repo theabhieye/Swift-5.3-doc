@@ -20,9 +20,9 @@ https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html
 
 ✅ Enumerations
 
-📝 Structures and Classes
+✅ Structures and Classes
 
-📝 Properties
+✅ Properties
 
 📝 Methods
 
