@@ -24,17 +24,17 @@ https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html
 
 ✅ Properties
 
-📝 Methods
+✅ Methods
 
-📝 Subscripts
+✅ Subscripts
 
-📝 Inheritance
+✅ Inheritance
 
-📝 Initialization
+🤫 Initialization
 
-📝 Deinitialization
+✅ Deinitialization
 
-📝 Optional Chaining
+✅ Optional Chaining
 
 📝 Error Handling
 
