@@ -37,39 +37,4 @@ Bank.coinsInBank
 p = nil
 
 Bank.coinsInBank
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //: [Next](@next)

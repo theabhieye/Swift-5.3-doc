@@ -39,3 +39,6 @@
 
 - [ ] Two-Phase Initialization pg 441
 
+- [ ] Calling Methods Through Optional Chaining pg- 501
+
+
