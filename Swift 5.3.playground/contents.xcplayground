@@ -17,5 +17,7 @@
         <page name='14 Initialization'/>
         <page name='IO Hackerearth'/>
         <page name='15 Deinitialization'/>
+        <page name='16 Optional Chaining'/>
+        <page name='17 Error Handling'/>
     </pages>
 </playground>
