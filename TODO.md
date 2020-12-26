@@ -37,4 +37,5 @@
 
 - [ ] is using subscript is a good pratice or not  
 
-- [ ] assert
+- [ ] Two-Phase Initialization pg 441
+

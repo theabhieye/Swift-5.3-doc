@@ -13,5 +13,9 @@
         <page name='10 Properties'/>
         <page name='11 Methods'/>
         <page name='12 Subscripts'/>
+        <page name='13 Inheritance'/>
+        <page name='14 Initialization'/>
+        <page name='IO Hackerearth'/>
+        <page name='15 Deinitialization'/>
     </pages>
 </playground>
