@@ -155,7 +155,7 @@ class Player{
 
 var player = Player(name: "Argyrios")
 player.complete(level: 1)
-print("highest unlocked level is now \(LevelTracker.unlockLevel)")
+print("highest unlocked level is now \(String(describing: LevelTracker.unlockLevel))")
 
 player = Player(name: "Beto")
 if player.tracker.advanceTo(6) {

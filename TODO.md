@@ -34,3 +34,7 @@
 
 
 - [ ] @discardableResult  
+
+- [ ] is using subscript is a good pratice or not  
+
+- [ ] assert
