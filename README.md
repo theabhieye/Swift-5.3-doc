@@ -36,15 +36,15 @@ https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html
 
 ✅ Optional Chaining
 
-📝 Error Handling
+✅ Error Handling
 
-📝 Type Casting
+✅ Type Casting
 
-📝 Nested Types
+✅ Nested Types
 
-📝 Extensions
+✅ Extensions
 
-📝 Protocols
+✅ Protocols
 
 ### Optional 
 
@@ -56,6 +56,6 @@ https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html
 
 📝 Memory Safety
 
-📝  Access Control
+☑️  Access Control
 
 📝  Advanced Operators
