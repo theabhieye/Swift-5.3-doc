@@ -41,4 +41,22 @@
 
 - [ ] Calling Methods Through Optional Chaining pg- 501
 
+- [ ] delegate explaination (@https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID276)
 
+- [ ] why is giving unexpected result 
+            
+        var thing = "cars"
+        let closure = { [thing] in
+          print("I love \(thing)")
+        }
+        thing = "airplanes"
+        closure()
+        
+- [ ]  When to use class and when to use struct?
+        
+- [ ] How base-class is defined in Swift?
+Ans In Swift the classes are not inherited from the base class and the classes that you define without specifying its super class, automatically becomes the base-class.
+
+- [ ] Can we create extension of Protocol which providing it diffination  
+
+- [ ] Not able to create @objc function in Protocol
